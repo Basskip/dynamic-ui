@@ -37,3 +37,75 @@ li {
 .show {
     display: block;
 }
+
+/* Image slider */
+
+.img-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 400px;
+    width: 20px;
+
+    display: inline-block;
+    text-align: center;
+    line-height: 400px;
+    font-size: 30px;
+
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+
+    overflow: hidden;
+}
+
+.imgwrapper {
+    display: flex;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+
+    transition: left 1s linear;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+
+    border: 1px solid black;
+    background-color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+
+    border: 1px solid lightgray;
+}
+
+.selected {
+    background-color: grey;
+}
