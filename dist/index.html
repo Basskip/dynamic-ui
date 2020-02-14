@@ -10,17 +10,25 @@
 
 <body>
     <nav>
-        <ul>
+        <ul class="navlist">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
-            <li>
-                <ul>
-                    <li>Expanding item</li>
+            <ul class="vertical-dropdown click">
+                <li class="anchor">Clicky expanding item</li>
+                <div class="hiding">
                     <li>Hidden item 1</li>
                     <li>Hidden item 2</li>
+                </div>
                 </ul>
-            </li>
+            <li>Another normal item</li>
+            <ul class="vertical-dropdown hover">
+                <li class="anchor">Hover expanding item</li>
+                <div class="hiding">
+                    <li>Hidden item 3</li>
+                    <li>Hidden item 4</li>
+                </div>
+            </ul>
         </ul>
     </nav>
     <script src="main.js"></script>
