@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.navlist {
+    display: flex;
+
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(57, 143, 57);
+    border: 1px solid black;
+}
+
+.vertical-dropdown {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.anchor {
+    position: relative;
+}
+
+.hiding {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+}
+
+.show {
+    display: block;
+}
