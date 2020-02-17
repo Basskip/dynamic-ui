@@ -17,5 +17,5 @@ Download/clone the repository then open index.html in your browser of choice
 ```
 git clone git@github.com:Basskip/dynamic-ui.git
 cd dynamic-ui
-google-chrome index.html
+google-chrome dist/index.html
 ```
